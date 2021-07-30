@@ -42,6 +42,16 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 - `storybook`: runs storybook on `localhost:6006`
 - `build-storybook`: create the build version of storybook
 
+
+## Plop - generate components structure via terminal
+
+You can type in terminal:
+```bash
+yarn generate ComponentName
+```
+And will be generated a component folder, with styles,component,storybook file and test file automagicaly
+
+
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
